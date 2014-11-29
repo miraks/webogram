@@ -1455,10 +1455,10 @@ angular.module('myApp.controllers', ['myApp.i18n'])
     }
 
     function onTyping () {
-      MtpApiManager.invokeApi('messages.setTyping', {
-        peer: $scope.curDialog.inputPeer,
-        action: {_: 'sendMessageTypingAction'}
-      });
+      // MtpApiManager.invokeApi('messages.setTyping', {
+      //   peer: $scope.curDialog.inputPeer,
+      //   action: {_: 'sendMessageTypingAction'}
+      // });
     }
 
     function onFilesSelected (newVal) {
